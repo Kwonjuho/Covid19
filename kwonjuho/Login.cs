@@ -29,7 +29,7 @@ namespace kwonjuho
             // 데이터베이스 연결 경로
             SqlConnection con = new SqlConnection
                 (@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=
-                C:\Users\ffpp1\Desktop\Covid\kwonjuho\data\Login\data.mdf;Integrated Security=True;Connect Timeout=30");
+                C:\Users\ffpp1\Desktop\Covid19-master\kwonjuho\data\data.mdf;Integrated Security=True;Connect Timeout=30");
 
             // 데이터베이스 내용 == sda
             SqlDataAdapter sda = new SqlDataAdapter
